@@ -1,0 +1,56 @@
+.fondo{
+    background-color: red;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navegacion{
+    border: 2px solid rgba(255, 0, 0, 0.404);
+    width: 100%;
+    height: 5dvw;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.miTexto{
+    font-size: 80px;
+    color: green;
+}
+.logo1{
+    width: 200px;
+    height: 200px;
+
+}
+.caja1{
+    padding: 10px 1px 1px 1px;
+    border: 1px solid;
+    border-collapse: collapse;
+    display : flex ;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.nav{
+    margin-top: 2px ;
+    margin-left: 3dvw;
+    text-decoration: none;
+}
+.cards-container{
+    display: flex;
+    background-color: aqua;
+    width: 85%;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid;
+    border-radius: 5%;
+    padding: 2em; 
+    justify-content: space-between;
+}
+.nav:link{
+    color: rgb(226, 153, 43);
+}
+.nav:hover{
+    color: rgb(6, 6, 29);
+}
