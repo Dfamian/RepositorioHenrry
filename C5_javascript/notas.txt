@@ -1,0 +1,58 @@
+en javascript se define 2 cosas una variable y un valor , a las variables se les 
+puede asigbnar un valor y va en este orden 
+
+var cajon1
+
+primero va el codigo (var) que es indicando la variable y despues el  valor que
+le quisieramos dar en este caso "cajon1"
+
+para agregarle un contenido a esta variable se puede hacer en un paso colocando 
+un ='bufanda' entinces la variable cajon 1 nos quedaria con el valor bufanda asi
+
+var cajon1='bufanda'
+
+todos los valores que se almacenen en estos variables tendran un dato asociado 
+es decir , valores o palabras
+-- PALABRAS -las palabras se identifican al estar dentro de comiilas dobles o simples 
+ejemplo 'bufanda' "guantes" etc 
+
+-- NUMEROS -para agregar un valor con numeros este se debe colocar sin comillas es decir
+, estos pueden ser , negativos , enteros o decimales 
+var numero = 13;
+
+-- BOLEANOS - se agrega boleanos para determinar si es falso o verdadero , si o no etc
+cabe recalcar que estos se colocan sin comillas 
+var estoyEntendiendo = true;
+var estoyaburrido = false'
+
+-- UNDEFINE - esto pasa cuando el valor no esta definido o vacio , es como decir que 
+el cajon este vacio por ejemplo 
+
+var cajon2 ;
+console.log(cajon2);
+
+--NULL- sirce similar a undefine pero le da un valor a la variable que es nulo o 0 
+
+val sinNada = null;
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+                            OPERADORES Y PRECEDENCIA 
+    el comando console.log(operacion); sirce para mostrar en la consola lo que sucede dentro del parentesis
+OPERADORES  , + , - , * , / , son para calcular un valor de 2 o mas elementos 
+
+Modulo o resto  %   este simbolo indica el resto o residuo de una division esto nos sirve 
+para determinar si este es divisible entre un numero o no 
+
+-REGLAS DE PRECEDENCIA-- las reglas de precedencia son aquellas que determinan la gerarquia de 
+un simbolo , es decir , en una operacion (3 + 5 * 8 - 3 ) primero va a realizar la operacion de 
+lu multiplicacion y por ulimo la suma y resta 
+
+Para que la regla de precedencia no aplica o aplique de diferente modo se debe colocar parentesis 
+en las operaciones 
+
+-------------------------------------------------------------------------------------------------------------------
+                                ADICION Y STRINGS 
+los operadores no solo se pueden aplicar a los numero tambien se puede aplicar a las palabras o strings esto hace que 
+concatene las palabra y variables   por ejemplo 
+
+colsole.log(hola + juan ) = hola juan 
+
