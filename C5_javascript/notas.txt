@@ -56,3 +56,19 @@ concatene las palabra y variables   por ejemplo
 
 colsole.log(hola + juan ) = hola juan 
 
+------------------_-_-_-_-_--_--_--_-_-_-_-_-_-_____------_-_-_-_-_-_-_---------------------------__________________----
+                                    OPERADORES DE COMPARACION
+
+Los operadores de comparacion funcionan igual que los operadores en las matematicas 
+<, >, >=, <= , ==, != al colocar un valor numerico en cualquiera de estos comparaciones este nos dara la respuesta en un 
+valor boleanos ya puede ser true o false 
+-UTILIDAD DE OPERADORES -- 
+- = - este es el operador de asignacion ,  sirve para asignarle a un elemento o remplazar otro elemento en si es decir 
+a = b donde a = 2 
+
+- == - compara no estrictamente si el valor es igual es decir 3 == '3' true , porque la palabra 3 coincide con el variable numero
+- === - compara estrictamente1 si es valor es igual es decir 3 === '3' false , porque se esta comparando una palabra con un numero 
+
+
+
+
