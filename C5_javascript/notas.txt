@@ -68,7 +68,27 @@ a = b donde a = 2
 
 - == - compara no estrictamente si el valor es igual es decir 3 == '3' true , porque la palabra 3 coincide con el variable numero
 - === - compara estrictamente1 si es valor es igual es decir 3 === '3' false , porque se esta comparando una palabra con un numero 
+------------------_-_-_-_-_--_--_--_-_-_-_-_-_-_____------_-_-_-_-_-_-_---------------------------__________________----
+                                        FUNCIONES 
+Las funciones , son aquellas que se determinan por un un f(x) 
 
+para declarar una funcion en javascript hay muchas formas de hacerlo primero se debe declarar la funcion con la palabra (function)
+despues se debe colocar el nombre de la funcion , por lo siguiente se debe colocar el argumento de la funcion en un parentesis (x)
+y por ultimo en unas llaves se escribe la funcion en si (return x + 3 )
+Existen varios tipos de declarar una funcion .
+function ejemplo1 (x){}
+var ejemplo2 = function ejemplo1(x){}          aqui la funcion pertenece a la variable ejemplo2
+var ejemplo3 = (x) => {}                        aqui en este ejemplo se determina la funcion con una flecha 
+
+ERRORES COMUNES 
+ 
+ no se debe confundir RETURN con CONSOLE.LOG son comandos muy distintos 
+
+ console.log() esta instruccion imprime algo en la consola , o da una vista de una variable en si , esto es una ayuda de una vista previa para los 
+ programadores , se debe tener en cuenta , que en el codigo no tiene que haber un console log 1
+
+ return = el return sirve para colocar el valor verdadero , osea lo que retorna verdaderamente la operacion , esto se usa para las funciones en si 
+ y las operaciones 
 
 
 
