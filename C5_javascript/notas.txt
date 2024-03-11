@@ -90,6 +90,21 @@ ERRORES COMUNES
  return = el return sirve para colocar el valor verdadero , osea lo que retorna verdaderamente la operacion , esto se usa para las funciones en si 
  y las operaciones 
  "OJO todo lo que se encuentra por debajo del return no se ejecutara en el codigo "
+------------------_-_-_-_-_--_--_--_-_-_-_-_-_-_____------_-_-_-_-_-_-_---------------------------__________________----
 
+                                                    NMENCLATURAS 
+    las nomenclaturas son formas de llamar a las cosas y , existen ciertas reglas que se debe segir y esto tiene un estandar de trabajo dentro de los 
+    equipos de desarollo de software 
 
+    EXISTEN 3 TIPOS DE NOMENCLATURAS ( camelCase , PascalCase , snake_case)
+
+    -- camelCase = el camelCase se usa para la union de dos o mas palabras sin espacios entre ellas pero diferneciadas por una letra mayuscula 
+    inicial a partir de la segunda palabra como por ejemplo holaMundo / funcionEdadPersonas
+
+    --PascalCase = es similar al camelCase pero aqui las palabras que vienen unidas sin espacios entre ellas pero todas las letras inicias con 
+    la letra mayuscula incluyendo la primera
+
+    --snake_case = la nomenclatura snake case se diferencia en que los espacios van sustituidos por un raya al piso y todas las teras de este son 
+    minusculas 
+------------------_-_-_-_-_--_--_--_-_-_-_-_-_-_____------_-_-_-_-_-_-_---------------------------__________________----
 
