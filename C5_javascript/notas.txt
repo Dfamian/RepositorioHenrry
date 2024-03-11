@@ -49,14 +49,14 @@ lu multiplicacion y por ulimo la suma y resta
 Para que la regla de precedencia no aplica o aplique de diferente modo se debe colocar parentesis 
 en las operaciones 
 
--------------------------------------------------------------------------------------------------------------------
+-_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_
                                 ADICION Y STRINGS 
 los operadores no solo se pueden aplicar a los numero tambien se puede aplicar a las palabras o strings esto hace que 
 concatene las palabra y variables   por ejemplo 
 
 colsole.log(hola + juan ) = hola juan 
 
-------------------_-_-_-_-_--_--_--_-_-_-_-_-_-_____------_-_-_-_-_-_-_---------------------------__________________----
+-_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_
                                     OPERADORES DE COMPARACION
 
 Los operadores de comparacion funcionan igual que los operadores en las matematicas 
@@ -68,7 +68,7 @@ a = b donde a = 2
 
 - == - compara no estrictamente si el valor es igual es decir 3 == '3' true , porque la palabra 3 coincide con el variable numero
 - === - compara estrictamente1 si es valor es igual es decir 3 === '3' false , porque se esta comparando una palabra con un numero 
-------------------_-_-_-_-_--_--_--_-_-_-_-_-_-_____------_-_-_-_-_-_-_---------------------------__________________----
+-_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_
                                         FUNCIONES 
 Las funciones , son aquellas que se determinan por un un f(x) 
 
@@ -90,7 +90,7 @@ ERRORES COMUNES
  return = el return sirve para colocar el valor verdadero , osea lo que retorna verdaderamente la operacion , esto se usa para las funciones en si 
  y las operaciones 
  "OJO todo lo que se encuentra por debajo del return no se ejecutara en el codigo "
-------------------_-_-_-_-_--_--_--_-_-_-_-_-_-_____------_-_-_-_-_-_-_---------------------------__________________----
+-_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_
 
                                                     NMENCLATURAS 
     las nomenclaturas son formas de llamar a las cosas y , existen ciertas reglas que se debe segir y esto tiene un estandar de trabajo dentro de los 
@@ -106,7 +106,7 @@ ERRORES COMUNES
 
     --snake_case = la nomenclatura snake case se diferencia en que los espacios van sustituidos por un raya al piso y todas las teras de este son 
     minusculas 
-------------------_-_-_-_-_--_--_--_-_-_-_-_-_-_____------_-_-_-_-_-_-_---------------------------__________________----
+-_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_
 
                                     CONTROL DE FLUGO (IF/ELSE)
 Codigo condicional = codigo que sigue ciertas condiciones y depende a esto sigue para un lado o para el otro 
@@ -125,3 +125,27 @@ function viajar(destino) {
 ElSE IF = si la primera condicion echa por if no se cunple esta va a seguir con la siguiente condicion que es else if , y asi sucesivamente 
 
 ELSE = si ninguna de las condiciones se cumle va a tomar la condicion else 
+-_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_
+                                                           OBJETO MATH 
+los objetos math son una serie de objetos math son aquellos que tienen metodos propios y se usan para para algunas operaciones matematicas
+
+Math.pow(2,3) = este metodo nos permite potenciar un numero , es decir 2 elevado 3 , es igual a 2x2x2 = 8
+// 8
+
+Math.round (0.49) = Este comando redondea un numero decimal , si tenemos 0,49 el relutado va a ser 0 pero si tenemos 0,50 el resultado es 1 
+// 0
+Math.round (0.50)
+// 1
+
+Math.floor (5.93) = redondeara el numero decimal al entero de menor valor 
+// 5
+
+Nath.ceil ( 3.27) = redondeara el numero decila al entero de mayor valor 
+// 4 
+
+Math.max (1,2,3,4,5); = toma el valor maximo de un conjunto 
+//5
+math.min (1,2,3,4,5); = toma el valor minimo de un conjunto
+//1
+math.random () = genera un nimero aleatorio . Es importante tener en cuenta que el numero que se genera es entre el 1 y el cero 
+// 0,80498374
