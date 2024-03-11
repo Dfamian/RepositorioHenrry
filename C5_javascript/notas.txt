@@ -33,6 +33,8 @@ console.log(cajon2);
 
 --NULL- sirce similar a undefine pero le da un valor a la variable que es nulo o 0 
 
+--typeof(argumento) es una funcion que devuleve el tipo de argumento , si es boleano o es numerico o es typo string u objeto 
+
 val sinNada = null;
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
                             OPERADORES Y PRECEDENCIA 
