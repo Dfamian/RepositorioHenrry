@@ -108,3 +108,20 @@ ERRORES COMUNES
     minusculas 
 ------------------_-_-_-_-_--_--_--_-_-_-_-_-_-_____------_-_-_-_-_-_-_---------------------------__________________----
 
+                                    CONTROL DE FLUGO (IF/ELSE)
+Codigo condicional = codigo que sigue ciertas condiciones y depende a esto sigue para un lado o para el otro 
+permiten que se cumplan unas u otras condiciones 
+
+para hacer un ocndicional en codigo primero se debe colocar IF que es en si el condicional despues entre parentesis la condicion que vamos a 
+escribir , esta condicion siempre se va a resumir en una comparacion buleana y entre llaves , lo que se va a ejecutar si esta comparacion es 
+verdadera ejemplo 
+
+function viajar(destino) {
+    if (destino === 'Brasil'){
+        console.log('Gire a la izquierda)
+    }
+}
+
+ElSE IF = si la primera condicion echa por if no se cunple esta va a seguir con la siguiente condicion que es else if , y asi sucesivamente 
+
+ELSE = si ninguna de las condiciones se cumle va a tomar la condicion else 
