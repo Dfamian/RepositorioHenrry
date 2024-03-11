@@ -89,6 +89,7 @@ ERRORES COMUNES
 
  return = el return sirve para colocar el valor verdadero , osea lo que retorna verdaderamente la operacion , esto se usa para las funciones en si 
  y las operaciones 
+ "OJO todo lo que se encuentra por debajo del return no se ejecutara en el codigo "
 
 
 
