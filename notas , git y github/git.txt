@@ -29,6 +29,8 @@ git remote add origin = sirve para seleccionar origen de repositorio
 git branch -- crea una nueva rama de trabajo
 git branch -M main -- vuelve la rama master a main (la rama principal)
 git push -u origin main  sirve para mandar el repositorio al origen
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                          git Seguimiento Y COMO VOLVER A UN COMMIT
 
