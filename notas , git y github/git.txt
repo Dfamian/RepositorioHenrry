@@ -1,0 +1,44 @@
+                                INICIO DE SESION EN GIT 
+
+para poder crear o acceder un correo en git 
+
+se necesita colocar el sigiente comando 
+
+git config --global user.email "inserte correo"
+git congig --global user.name "nombre de usuario"
+asi podemos ingresar con nuestro correo y usuario 
+..................................................................................,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,............
+                                            VOLVER UNA CARPETA UN REPOSITORIO 
+para volver una carpeta un repositorio 
+1ro se debe seleccionar la carpeta que queremos que se convierta en el repositorio 
+2do se de debe ejecutar el siguiente comando             - git init 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                        COMANDOS BASICOS DE GIT
+
+git status = con git status revisamos las carpetas actuales y comprobamos el repositorio 
+git add = sirve para guardar los cambios echo en un archivo -  git add . = aplica los cambios echos a todos los archivos
+git commit -m "" para guardar en un commit o en una copia de seguridad pero agregandole un mensaje al commit
+git log = este comando sirve para mostrar los commits existentes en el repositorio
+git push = este comando nos permite enviar los archivos a un servidor remoto 
+git pull = sirve para recibir archivos de un repositorio remoto o local
+ git branch -M main -- añade la rama Master a main , añanade la rama main 
+git clone = este comanndo copia los datos del repositorio dado  
+git push origin main = este comando envia los datos echos al servidor de donde sacamos los datos 
+git checkout "nombre de la rama" -- cambia el nombre de la rama por la que queremos trabajar
+git remote add origin = sirve para seleccionar origen de repositorio
+git branch -- crea una nueva rama de trabajo
+git branch -M main -- vuelve la rama master a main (la rama principal)
+git push -u origin main  sirve para mandar el repositorio al origen
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                         git Seguimiento Y COMO VOLVER A UN COMMIT
+
+git log -- ára ver los codigos de los commits
+git rm --cached "nombres del archivo" -- deja de hacer segimiento en a un archivo, es como eliminar un archivo de git hub 
+git diff -- mira las modificaciones que se han echo en base la version del commit que se esta trabahando 
+git checkout -- (aqui se puede colocar el archivo que queremos que vuelva a su anterior commit , o colocar el codigo del comit , o un . para 
+que todos los archivos cuelcan al anterior commit)
+git reset --hard "codigo del commit" -- te regresa al comit seleccionado pero borra el anterior commit
+git revert  "codigo del commit" -- este comando nos devuelve a un commit seleccionado pero en un nuevo commit 
+
+
+

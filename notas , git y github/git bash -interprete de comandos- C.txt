@@ -1,0 +1,23 @@
+git bash -interprete de comandos- CLI
+
+pwd = imprimir directorio , mostrar las carpetas actuales con las que estamos trabajando , o la ruta
+ls = muestra un listado de elementos que se encuentran en la carpeta 
+	se puede agrgar comandos a los comandos para alterar el comportamiento de estos ejemplo 
+	ls -l esto es para agregar mayor informacion 
+
+LOS COMANDOS  vienen presedidos de opciones que es el comando en si y el argumento que es lo que altera el comportamiento con un - 
+
+
+mkdir- crear directorio o carpeta  , si se quiere crear una carpeta con espacion el nombre de esta tiene que ir encerrada en comillas
+cd - sirve para entrar a un directorio
+cd .. - sirce para retroceder en un directorio
+clear - limpia la pantalla 
+touch - crea un archivo vacio , es necesario especificar que tipo de archivo es js , html . css , etc 
+rm - elimina el archivo indicado 
+rm -r  = elimina un directorio
+code = con este comando vamos a abrir el archivo en visual studio code 
+code .= abre en visual studio el los archivos seleccionados en el repositorio
+-----------------------------------------------------------------------------------------------------------------------------------
+COMMIT
+crea copias de seguridad del codigo , es como una foto , o captura de pantalla 
+
