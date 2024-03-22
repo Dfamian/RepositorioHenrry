@@ -1,0 +1,35 @@
+LENGUAGES 
+
+//palabras reservadas 
+//sintaxis
+//semantica
+
+                    VARIABLE 
+
+una variable es un contenedor que funciona como contenedor
+sirce para almacenar datos como numeros textos u otras variables 
+
+las variables no pueden empezar por un palabras reservadas o numeros 
+
+var - sirve para crear una variable 
+= - el igual funciona como simbolo de asignacion
+
+                    TIPOS DE DATOS
+se puede definir entre textos , palabras , fechas , etc .
+
+letras = string
+numeros = number    
+typeoff = para conocer el tipo de variable
+
+                            COMPARADORES 
+= para la asignacion
+== sirve como boleano , puede ser un numero y un string pero si son iguales va a ser true 
+=== igualdad estricta 
+!= para determinar una diferencia 
+< , > , <=, >= mayor , menor , mayor o igual , menor o igual 
+-----------------------------------------------------------------------------------------------------------------------------------
+HABLAR SOBRE 
+programacion funcional y reutilizacion
+modularizacion y como funciona 
+diferencia entre return y console.log
+ver resultado de funcion con console.log 
