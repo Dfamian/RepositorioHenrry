@@ -4,13 +4,12 @@ function esFechaValida(fecha) {
   // Si es así, retorna true, sino retorna false.
   // Tu código:
  
-
-  if (typeof(verFecha) == Date){
-    return true;
-  }
-  else {
-    return false;
-  }
+if (fecha == "invalid date "){
+  return false ;
+}
+if (fecha instanceof Date){
+  return true
+}
 }
 
 module.exports = esFechaValida;

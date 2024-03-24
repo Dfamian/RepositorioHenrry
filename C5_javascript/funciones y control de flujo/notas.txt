@@ -151,3 +151,9 @@ math.min (1,2,3,4,5); = toma el valor minimo de un conjunto
 //1
 math.random () = genera un nimero aleatorio . Es importante tener en cuenta que el numero que se genera es entre el 1 y el cero 
 // 0,80498374
+-_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_
+                                                AND Y OR 
+AND -- funciona para que dos propociciones se cumplan, en espa;ol es como "esto y esto " true se ve representado asi (&&)
+or -- funciona para que funcione una prepocicion u otra prepocicion , "esto o esto " se ve representado asi ( || )
+-_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_--_-_-_-_-_
+                                                    BUCLES 
