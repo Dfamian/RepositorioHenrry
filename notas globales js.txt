@@ -1,0 +1,5 @@
+                                            OPERADORES LOGICOS 
+existen 3 tipos de operadores logicos 
+AND -- se ve representado asi (&&) y sirve para colocar dos o mas prepociciones que se deben cumplir 
+OR -- se ve representado asi (||) y sirve para que se puede escojer eentre una u otra prepocicion 
+NOT -- se ve representado asi (!) 
