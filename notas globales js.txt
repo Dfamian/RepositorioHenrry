@@ -3,3 +3,21 @@ existen 3 tipos de operadores logicos
 AND -- se ve representado asi (&&) y sirve para colocar dos o mas prepociciones que se deben cumplir 
 OR -- se ve representado asi (||) y sirve para que se puede escojer eentre una u otra prepocicion 
 NOT -- se ve representado asi (!) 
+
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+                                            FOR Y WHILE 
+Es la forma rapida para hacer procesos repetitivos ya sean contar o ir sumando repetiticamente algo , y se usa for o while que se utlizan asi:
+
+FOR --- se utiliza junto con un parentesis y va dividido en 3 secciones --(vairable de iteracion (i) i=0 ; condicion de cumplimiento (mientras esta
+condicion sea verdadera el bucle segira ejecutandose) i < 10 ; El aumento i ++ , i +2 , i + 3) ejemplo
+
+for ( i = 0 ; i < 20; i++ )
+
+WHILE --- el while esta compuesto de varios factores uno de ellos es que se empieza con wl whirle(factores que se tienen que cumplir )
+a diferencia del for , esta es una evaluacion logica que retorna un verdader o un false . 
+
+DIFERENCIAS ENTRE FOR Y WHILE
+-La primera diferencia es que el FOR se usa cuando se sabe la cantidad exacta de pasos que vamos a seguir pero el WHILE  se utiliza cuando 
+no sabemos lo pasos con certeza para funalizar la ejecucion 
+
