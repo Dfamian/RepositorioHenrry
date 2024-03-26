@@ -14,7 +14,7 @@ condicion sea verdadera el bucle segira ejecutandose) i < 10 ; El aumento i ++ ,
 
 for ( i = 0 ; i < 20; i++ )
 
-WHILE --- el while esta compuesto de varios factores uno de ellos es que se empieza con wl whirle(factores que se tienen que cumplir )
+WHILE --- el while esta compuesto de varios factores uno de ellos es que se empieza con el while(factores que se tienen que cumplir )
 a diferencia del for , esta es una evaluacion logica que retorna un verdader o un false . 
 
 DIFERENCIAS ENTRE FOR Y WHILE
@@ -22,3 +22,15 @@ DIFERENCIAS ENTRE FOR Y WHILE
 no sabemos lo pasos con certeza para funalizar la ejecucion 
 - Se tiene que tener en cuenta que para hacer el incremento del for se hace con los sigientes simbolos (i += numero de icremento );
 
+COMPLEMENTOS EXTRAS DE LOS BUCLES 
+
+SWICH -- Es una expresion que compara el valor con la instancia, el swich esta conformado por 4 secciones , 
+    *swich , que esta sirve para escojer la instancia o variable que se debe cumplir 
+    * case , esta va a cont ener la variable en si 
+    * breack , esto es para que rompa el ciclo una vez ya halla encontrado el valor correspondiente 
+    *default , cuando no se halla encontrado ninguna de las instancias , se ejecutara el default
+DO WHILE -- funciona como el while pero antes de entrar al ciclo ejecuta , ejecuta lo que esta dentro de el do , y si lo que esta dentro de el
+do cumple lo dicho este entrara al ciclo , es decir que si la variable cumple con lo lo propuesto en el while , este entrara a de lleno a 
+ejecutar el do 
+    *do -- cumple la ejecucion , y siempre se ejecuta una vez asi no este dentro de los parametros
+    *while -- es la que mira la condicion para hacer el ciclo , siempre esta acompa;ado de una variable 
