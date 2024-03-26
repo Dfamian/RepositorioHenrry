@@ -34,3 +34,5 @@ do cumple lo dicho este entrara al ciclo , es decir que si la variable cumple co
 ejecutar el do 
     *do -- cumple la ejecucion , y siempre se ejecuta una vez asi no este dentro de los parametros
     *while -- es la que mira la condicion para hacer el ciclo , siempre esta acompa;ado de una variable 
+CONTINUE -- el continue funciona para romper la ejecucion de una fucnion sin salir del cilclo que se esta ejecutando .
+BREACK -- breack sirve para romper el ciclo 
