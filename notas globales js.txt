@@ -36,3 +36,24 @@ ejecutar el do
     *while -- es la que mira la condicion para hacer el ciclo , siempre esta acompa;ado de una variable 
 CONTINUE -- el continue funciona para romper la ejecucion de una fucnion sin salir del cilclo que se esta ejecutando .
 BREACK -- breack sirve para romper el ciclo 
+-_-_-_-_-_-_-_--_-_-_-_-_-_-_--_-_-_-_-_-_-_--_-_-_-_-_-_-_--_-_-_-_-_-_-_--_-_-_-_-_-_-_--_-_-_-_-_-_-_--_-_-_-_-_-_-_--_-_-_-_-_-_-_--_-_-_-_-_-_-_-
+                                             ARRAYS O LISTAS     
+los arreglos funcionan como un contenedor de listas y en este se puede guardar ciertos elementos 
+ELEMENTOS : es aquello que contiene la lista [ elemento1 , elemento2 , elemento3]
+INDICE : es la pocicion en la que se encuentra el elemento [ 0,1,2] y siempre inicia desde el cero 
+
+ ARREGLOS DE ARRAYS
+.length = nos permite ver cuantos elementos tiene un arreglo 
+.push = agrega elementos al final de la lista 
+.inshift = agrega elementos al inicio de la lista 
+.pop() = elimina el ultimo elemetno de la lista 
+.shift() = elimina el primer elemento de la lista
+.includes() = revisa si el elemento dentro del parentesis esta en la lista la respuesta sera un boleano
+.every () = revisa si todos los elementos cumplen con la condicion dada en los parentesis 
+
+
+.split(") =  separa las letras de una palabra, si se coloca una letra , separa la palabra cada vez que encuentre esa palabra
+.join(") = esta funcion une las letras o elementos que esten en una lista 
+.foreach() = funciona para separar los numeros de las 
+
+
