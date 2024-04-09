@@ -45,11 +45,13 @@ INDICE : es la pocicion en la que se encuentra el elemento [ 0,1,2] y siempre in
  ARREGLOS DE ARRAYS
 .length = nos permite ver cuantos elementos tiene un arreglo 
 .push = agrega elementos al final de la lista 
-.inshift = agrega elementos al inicio de la lista 
+.unshift = agrega elementos al inicio de la lista 
 .pop() = elimina el ultimo elemetno de la lista 
 .shift() = elimina el primer elemento de la lista
 .includes() = revisa si el elemento dentro del parentesis esta en la lista la respuesta sera un boleano
 .every () = revisa si todos los elementos cumplen con la condicion dada en los parentesis 
+.sort() = Ordena la cadena depende de una funcion => y como queremos que la ordene
+                                                            *.LocaleCompare ( )= ordena los items de forma alfabetica
 
 
 .split(") =  separa las letras de una palabra, si se coloca una letra , separa la palabra cada vez que encuentre esa palabra
