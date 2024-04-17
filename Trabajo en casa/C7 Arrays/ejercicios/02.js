@@ -1,7 +1,13 @@
 function devolverUltimoElemento(array) {
   // Retornar el último elemento del arreglo recibido.
   // Tu código:
-  return array[0,-1]
+  
+  if (array && array.length > 0){
+    return array[array.length - 1]
+  }
+  else {
+    return null
+  }
 }
 
 module.exports = devolverUltimoElemento;
