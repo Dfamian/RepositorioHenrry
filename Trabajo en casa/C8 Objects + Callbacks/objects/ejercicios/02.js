@@ -3,6 +3,7 @@ function actualizarValorPropiedad(objeto, propiedad, valor) {
    // Retorna el objeto actualizado.
    // Tu código:
    objeto[propiedad] = valor;
+   console.log(objeto)
    return objeto;
 }
 
