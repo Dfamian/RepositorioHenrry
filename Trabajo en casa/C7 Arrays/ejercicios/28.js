@@ -3,11 +3,13 @@ function esArrayNoVacio(arr) {
   // Comprueba si este argumento es un array y si tiene al menos un elemento.
   // Si es así, retorna true, de lo contrario, retorna false.
   // Tu código:
-  
-  if (Array.isArray(arr) && arr.length > 0){
-    return true
-  }
-  else return false
+var verdadero_o_falso = 0
+if (typeof(arr) == 'string' || typeof(arr) == 'number' || arr.length == 0){
+  verdadero_o_falso = false
+}else {
+  verdadero_o_falso = true
+}
+return verdadero_o_falso
 }
 
 module.exports = esArrayNoVacio;

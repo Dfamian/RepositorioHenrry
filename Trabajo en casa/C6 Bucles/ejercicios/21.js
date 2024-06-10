@@ -5,12 +5,11 @@ function esPotenciaDeDos(numero) {
   // PISTA: Utiliza un bucle while.
   // Tu código:
   while ( numero > 1){
-    if (numero % 2 !== 0 ){
+    if (numero % 2 !== 0){
       return false
-    }
-    else{numero = numero / 2}
-    
+    }else numero / 2
   }
   return true
 }
-module.exports = esPotenciaDeDos;
+  
+  module.exports = esPotenciaDeDos;

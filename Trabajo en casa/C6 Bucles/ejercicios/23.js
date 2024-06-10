@@ -5,11 +5,57 @@ function doWhile(num) {
   // Tu código:
   var ciclo = 0
   do {
-    ciclo ++;
+    ciclo ++
     num = num += 5
-  }
-  while(ciclo < 8)
-return num
 }
-doWhile(5)
-module.exports = doWhile;
+    while(ciclo < 8){
+      return num
+    }
+  }
+  
+  module.exports = doWhile;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //   var ciclo = 0
+  //   do {
+  //     ciclo ++;
+  //     num = num += 5
+  //   }
+  //   while(ciclo < 8)
+  // return num

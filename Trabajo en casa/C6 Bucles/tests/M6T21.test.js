@@ -1,4 +1,4 @@
-const esPotenciaDeDos = require('../ejercicios/21');
+https://www.youtube.com/watch?v=9Wp8-qEnLgsconst esPotenciaDeDos = require('../ejercicios/21');
 
 test('2 es potencia de 2', () => {
   expect(esPotenciaDeDos(2)).toBe(true);

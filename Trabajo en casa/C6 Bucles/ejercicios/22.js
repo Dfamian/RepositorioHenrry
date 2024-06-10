@@ -6,23 +6,72 @@ function combine(str1, str2, str3) {
    // combine("abc", "", "123") == "a1b2c3"
    // combine("abc", "12345", "") == "a1b2c345"
    // combine("abc", "12345", "67") == "a16b27c345"
-   var string_maslargo = Math.max(str1.length, str2.length, str3.length)
-   var nuevo_string = ""
-   for (i = 0 ; i <= string_maslargo ; i++){
+   var stringMasLargo = Math.max(str1.length,str2.length,str3.length)
+   var nuevoString = ""
+   for (var i = 0 ; i <= stringMasLargo; i ++){
       if (str1[i] !== undefined){
-         nuevo_string = nuevo_string + str1[i]
+         nuevoString = nuevoString+str1[i]
       }
       if (str2[i] !== undefined){
-         nuevo_string = nuevo_string + str2[i]
+         nuevoString = nuevoString+str2[i]
       }
       if (str3[i] !== undefined){
-         nuevo_string = nuevo_string + str3[i]
+         nuevoString = nuevoString + str3[i]
       }
    }
-   console.log(nuevo_string)
-   console.log(stringMaslargo)
-}
+   
+   return nuevoString
+   }
+   combine ('abc', '', '123')
+   module.exports = combine;
+  
+   
 
-combine ("abc","12345", "67")
 
-module.exports = combine;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   // var string_maslargo = Math.max(str1.length, str2.length, str3.length)
+   // var nuevo_string = ""
+   // for (i = 0 ; i <= string_maslargo ; i++){
+   //    if (str1[i] !== undefined){
+   //       nuevo_string = nuevo_string + str1[i]
+   //    }
+   //    if (str2[i] !== undefined){
+   //       nuevo_string = nuevo_string + str2[i]
+   //    }
+   //    if (str3[i] !== undefined){
+   //       nuevo_string = nuevo_string + str3[i]
+   //    }
+   // }
+   // console.log(nuevo_string)
+   // console.log(stringMaslargo)

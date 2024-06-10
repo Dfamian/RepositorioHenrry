@@ -2,13 +2,12 @@ function convertirStringAMayusculas(array) {
   // Convierte a mayúsculas todos los strings del array.
   // Retorna el arreglo resultante.
   // Tu código:
-  var mayuscula = []
-  for ( var i = 0 ; i < array.length ; i ++){
-    mayuscula.push(array[i].toUpperCase())
-  }
-  return mayuscula
-
-
+var palabrasMayusculas = []
+for (var i = 0 ; i < array.length; i ++){
+  palabrasMayusculas.push(array[i].toUpperCase())
 }
-convertirStringAMayusculas (['hola','volvi', 'cabrones'])
+console.log(palabrasMayusculas)
+return palabrasMayusculas
+}
+convertirStringAMayusculas (['hola','mundo'])
 module.exports = convertirStringAMayusculas;
